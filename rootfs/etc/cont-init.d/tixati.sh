@@ -15,6 +15,7 @@ if [ -f /config/xdg/config/tixati/settings2.dat]; then
   echo "Using existing config file."
 else
   echo "Using default config file."
+  mkdir -p /config/xdg/config/tixati
   cp /settings2.dat /config/xdg/config/tixati/settings2.dat
 fi
 
