@@ -17,6 +17,8 @@ RUN \
 		libdbus-1-3 \
 		libdbus-glib-1-2 \
 		libgtk2.0-0 \
+		traceroute \
+		iputils-ping \
 		&& \
 	add-pkg --virtual build-dependencies \
 		wget \
