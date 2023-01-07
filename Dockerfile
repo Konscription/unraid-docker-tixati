@@ -35,7 +35,7 @@ RUN \
     sed-patch 's/<application type="normal">/<application type="normal" title="Tixati">/' \
         /etc/xdg/openbox/rc.xml && \
 	# Generate and install favicons.
-    APP_ICON_URL=https://raw.githubusercontent.com/angelics/unraid-docker-tixati/main/favicon.ico && \
+    APP_ICON_URL=https://raw.githubusercontent.com/angelics/unraid-docker-tixati/main/favicon.png && \
     install_app_icon.sh "$APP_ICON_URL"
 
 # Set environment variables.
