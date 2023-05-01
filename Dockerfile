@@ -10,7 +10,7 @@ RUN \
 	install_app_icon.sh "$APP_ICON_URL"
 
 # Define download URLs.
-ARG TIXATI_VERSION=3.14-1
+ARG TIXATI_VERSION=3.17-1
 ARG TIXATI_URL=https://download2.tixati.com/download/tixati_${TIXATI_VERSION}_amd64.deb
 
 ### Install Tixati
