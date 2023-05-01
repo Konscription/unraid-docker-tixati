@@ -1,5 +1,5 @@
 # Pull base image.
-FROM jlesage/baseimage-gui:ubuntu-20.04-v4
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntujammy
 
 # Define working directory.
 WORKDIR /tmp
